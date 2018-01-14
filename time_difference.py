@@ -110,9 +110,6 @@ if __name__ == "__main__":
 	print(difference.totaltime)
 	print(totaltime)
 	import time
-	import types
-	date1 = datetime.datetime.now()
-#	raise SystemExit(0)
 	time.sleep(1)
 	date2 = datetime.datetime.now()
 	difference= time_difference(date1,date2)
