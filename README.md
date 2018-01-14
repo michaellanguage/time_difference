@@ -11,12 +11,6 @@ datetime.timedelta(-1, 86380, 664270)
 >>> difference = date1 - date2
 >>> difference.seconds
 86380
->>> difference.second
-Traceback (most recent call last):
-	File "<stdin>", line 1, in <module>
-AttributeError: 'datetime.timedelta' object has no attribute 'second'
->>> difference.seconds
-86380
 import time
 from time_difference import time_difference
 date1 = datetime.datetime.now()
